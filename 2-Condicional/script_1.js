@@ -1,14 +1,16 @@
 "use strict";
 
 /*VERSIÓN_1*/
-
+export const alpha = 5;
 export const name = "Hugo";
 const favColor = "amarelo";
-exportconst age = 36;
+const age = 36;
 
 console.log(
   `Ola. O meu nome é ${name}.Teño ${age} anos, e a miña cor favorita é o ${favColor}. `
 );
+console.log("proba de importacion");
+
 /*VERSIÓN_2*/
 
 // const name = prompt("Bo día. Antes de continuar, preciso saber o seu nome");
@@ -28,6 +30,7 @@ console.log(
 //     age + 1
 //   } ? `
 // );
+
 /**
  *
  *
