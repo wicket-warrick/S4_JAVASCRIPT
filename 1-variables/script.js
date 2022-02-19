@@ -2,9 +2,9 @@
 
 /*VERSIÓN_1*/
 
-export const name = "Hugo";
+const name = "Hugo";
 const favColor = "amarelo";
-exportconst age = 36;
+const age = 36;
 
 console.log(
   `Ola. O meu nome é ${name}.Teño ${age} anos, e a miña cor favorita é o ${favColor}. `
