@@ -51,29 +51,28 @@
  *
  */
 //VERSION_3
-//variables
+
 let date = new Date("December 11, 2021 00:00:00");
 let hour = date.getHours();
 let minutes = "0" + date.getMinutes();
-//lóxica
+
 for (hour; hour <= 24; hour++) {
-  //cucu
   if (hour >= 8 && hour <= 12) {
     console.log("".padStart(5 * hour, "cucu "));
   }
   if (hour >= 13 && hour <= 22) {
     console.log("".padStart(5 * (hour - 12), "cucu "));
   }
-  //hora1
+  //
   if (hour <= 9) {
     hour = "0" + hour;
   }
-  //hora2
+  //
   date.setHours(hour);
   console.log(date);
   console.log(hour + ":" + minutes);
 
-  //saudo
+  //
   if (hour >= 8 && hour <= 11) {
     console.log(`Son as ${hour}.Bo día.`);
   } else if (hour === 12) {
